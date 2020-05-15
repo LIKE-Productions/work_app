@@ -18,9 +18,8 @@ var email =  mongoose.model("Email", emailSchema)
 app.set('view engine','ejs')
 
 app.get('/', function(req, res){
-    res.render('landing')
+    res.render('sheets')
 })
-
 //Server call
 app.listen(4005, function(){
     console.log('RUNNING ON PORT 4005')
