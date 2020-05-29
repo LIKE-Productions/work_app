@@ -1,5 +1,6 @@
 // Requirements
 var express = require('express')
+ejs =         require('ejs')
 var app = express()
 app.set('view engine','ejs')
 
