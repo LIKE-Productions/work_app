@@ -10,7 +10,9 @@ If you want more formats, you can post them <a href="https://github.com/yapperma
 
 ## Tracking our development process
 
-*May 29, 2020.* The first steps of our development process, where I am just initializing the workspace that Node gives me. This is not operable, and even if it was   
+*May 29, 2020.* The first steps of our development process, where I am just initializing the workspace that Node gives me. This is not operable.
+
+*May 30 2020.* The next big step of our development process, where I have just made a /docx page to convert the documents. I have copied the Mammoth browser-demo page, and I am in the process of stripping it down to the only important parts. 
 
 ### Dependencies
 
@@ -35,3 +37,4 @@ If you have any problems about using no databases, put it in the <a href="https:
 ### Versions
 
 *May 29, 2020*. **Alpha Version** 0.1
+*May 30 2020*. **Alpha Version** 0.1.1
