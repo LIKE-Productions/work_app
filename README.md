@@ -1,7 +1,7 @@
 # A Word to Markdown to... Converter
 
 ## Basic Info
-This is a website that hopes to be able to convert a <mark>Word document</mark> into <u>Markdown</u> into whatever we support.
+This is a website that hopes to be able to convert a <mark>Word Document</mark> into <u>Markdown</u> into whatever we support.
 
 
 ### Issues
@@ -13,6 +13,8 @@ If you want more formats, you can post them <a href="https://github.com/yapperma
 *May 29, 2020.* The first steps of our development process, where I am just initializing the workspace that Node gives me. This is not operable.
 
 *May 30 2020.* The next big step of our development process, where I have just made a /docx page to convert the documents. I have copied the Mammoth browser-demo page, and I am in the process of stripping it down to the only important parts. 
+
+*May 31 2020.* I am still in the process of debugging Mammoth
 
 ### Dependencies
 
@@ -38,3 +40,4 @@ If you have any problems about using no databases, put it in the <a href="https:
 
 *May 29, 2020*. **Alpha Version** 0.1
 *May 30 2020*. **Alpha Version** 0.1.1
+*May 31 2020*. **Alpha Version** 0.1.2

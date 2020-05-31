@@ -1,19 +1,11 @@
 // Requirements
 var express = require('express'),
     ejs = require('ejs'),
-    mammoth = require('mammoth')
+    mammoth = require('mammoth'),
+    mammothBrowser = require('./mammoth.browser.js')
 var app = express();
 app.set('view engine', 'ejs');
 
-
-// Mammoth
-
-// mammoth.convertToHtml({ path: "../../../../Downloads/Federal Gov't - Debate Sheet.docx" })
-//     .then(function (result) {
-//         var html = result.value; // The generated HTML
-//         var messages = result.messages; // Any messages, such as warnings during conversion
-//     })
-//     .done();
 
 
 app.get('/', function (req, res) {
