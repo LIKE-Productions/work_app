@@ -18,6 +18,8 @@ If you want more formats, you can post them <a href="https://github.com/yapperma
 
 *May 31 2020.* I am still in the process of debugging Mammoth. I managed to finalize debugging Mammoth at *1:00PM MNT*.
 
+*June 1, 2020.* I have bebugged any problems I have with directories, and I will **finish** in a week.
+
 ### Dependencies
 
 <ul>
@@ -45,6 +47,8 @@ If you have any problems about using no databases, put it in the <a href="https:
 *May 30 2020*. **Alpha Version** 0.1.1
 
 *May 31 2020*. **Alpha Version** 0.1.2
+
+*June 1, 2020*. **Alpha Version** 0.1.3
 
 ------
 # What Might happen soon
