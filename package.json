@@ -1,6 +1,6 @@
 {
   "name": "work_app",
-  "version": "1.0.0",
+  "version": "0.1.x",
   "description": "A Work app",
   "main": "app.js",
   "dependencies": {

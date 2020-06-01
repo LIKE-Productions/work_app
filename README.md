@@ -3,6 +3,8 @@
 ## Basic Info
 This is a website that hopes to be able to convert a <mark>Word Document</mark> into <u>Markdown</u> into whatever we support.
 
+We also plan to do the opposite, and you can read about that below.
+
 
 ### Issues
 If you want more formats, you can post them <a href="https://github.com/yappermags/work_app/issues">here.</a>
@@ -14,7 +16,7 @@ If you want more formats, you can post them <a href="https://github.com/yapperma
 
 *May 30 2020.* The next big step of our development process, where I have just made a /docx page to convert the documents. I have copied the Mammoth browser-demo page, and I am in the process of stripping it down to the only important parts. 
 
-*May 31 2020.* I am still in the process of debugging Mammoth
+*May 31 2020.* I am still in the process of debugging Mammoth. I managed to finalize debugging Mammoth at *1:00PM MNT*.
 
 ### Dependencies
 
@@ -39,5 +41,21 @@ If you have any problems about using no databases, put it in the <a href="https:
 ### Versions
 
 *May 29, 2020*. **Alpha Version** 0.1
+
 *May 30 2020*. **Alpha Version** 0.1.1
+
 *May 31 2020*. **Alpha Version** 0.1.2
+
+------
+# What Might happen soon
+
+## Second page
+
+I am thinking of also creating a <mark>Markdown</mark> to <u>Word</u> converter, which is going to use the base of Mammoth. 
+
+### How will I do this?
+I am going to take the Mammoth source, **anylize** and take notes about Mammoth, **break it down** to the very barebones source, then **build it back up**. I will try with all of my power to make this a public npm package.
+
+### When?
+
+I expect to release and use my own API by *Version* **Beta One**, or to be technical, around **Version 0.5**.

@@ -2,10 +2,10 @@
 var express = require('express'),
     ejs = require('ejs'),
     mammoth = require('mammoth'),
-    mammothBrowser = require('./mammoth.browser.js')
+    mammothBrowser = require('./public/stylesheets/mammoth.browser.js')
 var app = express();
 app.set('view engine', 'ejs');
-
+app.use(express.static('public'))
 
 
 app.get('/', function (req, res) {
