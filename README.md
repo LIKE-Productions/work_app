@@ -20,6 +20,12 @@ If you want more formats, you can post them <a href="https://github.com/yapperma
 
 *June 1, 2020.* I have bebugged any problems I have with directories, and I will **finish** in a week.
 
+*June 2, 2020.* I have released documentation on my website.
+
+*June 3, 2020.* Nothing. **CRICKETS!**
+
+*June 4, 2020.* I am making sure everything work OK for the initial release.
+
 ### Dependencies
 
 <ul>
@@ -27,6 +33,13 @@ If you want more formats, you can post them <a href="https://github.com/yapperma
 <li>EJS(Embedded Javascript)</li>
 <li>Nodemon</li>
 <li>Mammoth</li>
+</ul>
+
+### Frontend Dependencies
+
+<ul>
+<li>Bootstrap</li>
+<li>jQuery</li>
 </ul>
 
 ## Other Information
@@ -50,6 +63,10 @@ If you have any problems about using no databases, put it in the <a href="https:
 
 *June 1, 2020*. **Alpha Version** 0.1.3
 
+*June 2, 2020*. **Alpha Version** 0.1.4
+
+*June 3, 2020* **Alpha Version** 0.1.5
+
 ------
 # What Might happen soon
 
@@ -63,3 +80,5 @@ I am going to take the Mammoth source, **anylize** and take notes about Mammoth,
 ### When?
 
 I expect to release and use my own API by *Version* **Beta One**, or to be technical, around **Version 0.5**.
+
+> @@Copyright 2020 LIKE Productions
