@@ -22,6 +22,6 @@ app.get('/about', function(req,res){
     res.render('README')
 })
 
-app.listen(4009, function () {
+app.listen(process.env.PORT || 4009, function () {
     console.log("Server ready on PORT 4009");
 })
