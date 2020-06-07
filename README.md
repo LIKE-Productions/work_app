@@ -26,6 +26,8 @@ If you want more formats, you can post them <a href="https://github.com/yapperma
 
 *June 4, 2020.* I am making sure everything work OK for the initial release.
 
+*June 5, 2020.* I have added a new repository named print.js for our first ... conversion: PDF and easy print. Print.js is an easy to learn package with great documentation, so I might learn it in a breeze.
+
 ### Dependencies
 
 <ul>
@@ -33,6 +35,7 @@ If you want more formats, you can post them <a href="https://github.com/yapperma
 <li>EJS(Embedded Javascript)</li>
 <li>Nodemon</li>
 <li>Mammoth</li>
+<li>print.js</li>
 </ul>
 
 ### Frontend Dependencies
@@ -65,7 +68,20 @@ If you have any problems about using no databases, put it in the <a href="https:
 
 *June 2, 2020*. **Alpha Version** 0.1.4
 
-*June 3, 2020* **Alpha Version** 0.1.5
+*June 3, 2020*. **Alpha Version** 0.1.5
+
+*June 4, 2020*. **Alpha Version** 0.1.6
+
+*June 5, 2020*. **Alpha Version** 0.1.7
+
+### Warning about print.js compatibility
+
+I will have to warn you that print.js cannot print PDFs properly for:
+<ul>
+<li>Firefox</li>
+<li>Old Edge(not the Chromium Edge)</li>
+<li>IE(Internet Explorer) - Who uses it anyways?</li>
+</ul>
 
 ------
 # What Might happen soon

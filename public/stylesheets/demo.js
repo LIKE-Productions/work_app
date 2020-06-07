@@ -2,11 +2,14 @@
     var options = {
         styleMap: [
             "p[style-name='Title'] => h1:fresh",
+            "p[style-name='Subtitle'] => h6:fresh",
             "p[style-name='Heading 1'] => h2:fresh",
             "p[style-name='Heading 2'] => h3:fresh",
             "p[style-name='Heading 3'] => h4:fresh",
         ]
     };
+    document.getElementById("document")
+        .addEventListener("change", handleFileSelect, false);
 
     function handleFileSelect(event) {
         readFileInputEventAsArrayBuffer(event, function (arrayBuffer) {
