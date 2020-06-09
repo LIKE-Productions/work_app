@@ -28,6 +28,8 @@ If you want more formats, you can post them <a href="https://github.com/yapperma
 
 *June 5, 2020.* I have added a new repository named print.js for our first ... conversion: PDF and easy print. Print.js is an easy to learn package with great documentation, so I might learn it in a breeze.
 
+*June 6/7, 2020.* I have deployed the website, and made sure it worked. I will now add some extra features, and then leave to work on my MD-Worconverter project
+
 ### Dependencies
 
 <ul>
@@ -58,21 +60,23 @@ If you have any problems about using no databases, put it in the <a href="https:
 
 ### Versions
 
-*May 29, 2020*. **Alpha Version** 0.1
+*May 29, 2020*. **Alpha Version** 1.0
 
-*May 30 2020*. **Alpha Version** 0.1.1
+*May 30 2020*. **Alpha Version** 1.0.1
 
-*May 31 2020*. **Alpha Version** 0.1.2
+*May 31 2020*. **Alpha Version** 1.0.2
 
-*June 1, 2020*. **Alpha Version** 0.1.3
+*June 1, 2020*. **Alpha Version** 1.0.3
 
-*June 2, 2020*. **Alpha Version** 0.1.4
+*June 2, 2020*. **Alpha Version** 1.0.4
 
-*June 3, 2020*. **Alpha Version** 0.1.5
+*June 3, 2020*. **Alpha Version** 1.0.5
 
-*June 4, 2020*. **Alpha Version** 0.1.6
+*June 4, 2020*. **Alpha Version** 1.0.6
 
-*June 5, 2020*. **Alpha Version** 0.1.7
+*June 5, 2020*. **Alpha Version** 1.0.7
+
+*June 6/7, 2020*. **Aplha Version** 1.1.0
 
 ### Warning about print.js compatibility
 

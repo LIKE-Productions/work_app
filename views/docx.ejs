@@ -1,17 +1,25 @@
 <%- include ('./partials/header') -%>
-<div class="container">
-  <input id="document" type="file" />
-  <div class="row">
-    <div class="span8">
+<div class="container-fluid">
+  <button type="button" class="btn btn-success no-print">
+    <input id="document" type="file" />
+  </button>
+  
+    <div class="span8"></div>
       <div id="output" class="well">
-      </div>
     </div>
-    <div class="span4">
-      <h3>Messages</h3>
+    <div>
+      <h3 class="no-print">Messages</h3>
       <div id="messages">
       </div>
     </div>
-</div>
+    <div class="col-3 border border-danger no-print">
+      <h3>Problems with Mammoth</h3>
+      <ul>
+        <li>Mammoth doesn't put anything from your Word headers into the HTML format. All this means is that, if your titles are in the headers, they won't show up.</li>
+      </ul>
+    </div>
+  </div>
+
 
 
 <%- include ('./partials/footer') -%>
