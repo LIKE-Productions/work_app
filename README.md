@@ -30,6 +30,8 @@ If you want more formats, you can post them <a href="https://github.com/yapperma
 
 *June 6/7, 2020.* I have finally deployed this web app onto the world wide web. Website at <a href="work-app2.herokuapp.com">work-app2.herokuapp.com</a> I am sorry to have to say this, but once I get printing to work properly, I am going to start doing my MD-Worconverter, which is also the disabled web link on the navbar. There is no link for it, so I recommend you don't try to go /mdworconverterbeta.
 
+*June 8, 2020.*  
+
 ### Dependencies
 
 <ul>
