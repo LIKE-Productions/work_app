@@ -9,7 +9,6 @@
         ]
     };
     document.getElementById("document")
-        .addEventListener("change", handleFileSelect, false);
 
     function handleFileSelect(event) {
         readFileInputEventAsArrayBuffer(event, function (arrayBuffer) {
