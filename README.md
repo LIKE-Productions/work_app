@@ -28,10 +28,6 @@ If you want more formats, you can post them <a href="https://github.com/yapperma
 
 *June 5, 2020.* I have added a new repository named print.js for our first ... conversion: PDF and easy print. Print.js is an easy to learn package with great documentation, so I might learn it in a breeze.
 
-*June 6/7, 2020.* I have finally deployed this web app onto the world wide web. Website at <a href="work-app2.herokuapp.com">work-app2.herokuapp.com</a> I am sorry to have to say this, but once I get printing to work properly, I am going to start doing my MD-Worconverter, which is also the disabled web link on the navbar. There is no link for it, so I recommend you don't try to go /mdworconverterbeta.
-
-*June 8, 2020.*  
-
 ### Dependencies
 
 <ul>
@@ -62,23 +58,21 @@ If you have any problems about using no databases, put it in the <a href="https:
 
 ### Versions
 
-*May 29, 2020*. **Alpha Version** 1.0
+*May 29, 2020*. **Alpha Version** 0.1
 
-*May 30 2020*. **Alpha Version** 1.0.1
+*May 30 2020*. **Alpha Version** 0.1.1
 
-*May 31 2020*. **Alpha Version** 1.0.2
+*May 31 2020*. **Alpha Version** 0.1.2
 
-*June 1, 2020*. **Alpha Version** 1.0.3
+*June 1, 2020*. **Alpha Version** 0.1.3
 
-*June 2, 2020*. **Alpha Version** 1.0.4
+*June 2, 2020*. **Alpha Version** 0.1.4
 
-*June 3, 2020*. **Alpha Version** 1.0.5
+*June 3, 2020*. **Alpha Version** 0.1.5
 
-*June 4, 2020*. **Alpha Version** 1.0.6
+*June 4, 2020*. **Alpha Version** 0.1.6
 
-*June 5, 2020*. **Alpha Version** 1.0.7
-
-*June 6/7/8, 2020* **Alpha Version** 2.0.0
+*June 5, 2020*. **Alpha Version** 0.1.7
 
 ### Warning about print.js compatibility
 

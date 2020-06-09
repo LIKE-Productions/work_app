@@ -4,7 +4,7 @@ ejs            = require('ejs'),
 mammoth        = require('mammoth'),
 mammothBrowser = require('./public/stylesheets/mammoth.browser.js'),
 marked         = require('marked'),
-fs             = require('fs')
+fs             = require('fs');
 var app = express();
 app.set('view engine', 'ejs');
 app.use(express.static('public'))
@@ -21,8 +21,6 @@ app.get('/docx', function (req, res) {
 app.get('/about', function(req,res){
     res.render('README')
 })
-
-
 
 app.listen(process.env.PORT || 4009, function () {
     console.log("Server ready on PORT 4009");

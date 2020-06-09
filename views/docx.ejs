@@ -1,8 +1,6 @@
 <%- include ('./partials/header') -%>
-<div class="container-fluid">
-  <button type="button" class="btn btn-outline-primary">
-    <input id="document" type="file">
-  </button>
+<div class="container">
+  <input id="document" type="file" />
   <div class="row">
     <div class="span8">
       <div id="output" class="well">
@@ -15,11 +13,5 @@
     </div>
 </div>
 
-<div class="border border-danger col-4">
-  <h2>Warnings about convertion</h2>
-  <ul>
-    <li>Mammoth currently doesn't support putting information from your headers into the HTML convertion. I hope they might fix this in the future, but just a warning.</li>
-  </ul>
-</div>
 
 <%- include ('./partials/footer') -%>

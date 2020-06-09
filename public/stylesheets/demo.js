@@ -9,6 +9,7 @@
         ]
     };
     document.getElementById("document")
+        .addEventListener("change", handleFileSelect, false);
 
     function handleFileSelect(event) {
         readFileInputEventAsArrayBuffer(event, function (arrayBuffer) {
@@ -18,7 +19,7 @@
         });
     }
 
-    function displayResult(result) { 
+    function displayResult(result) {
         document.getElementById("output").innerHTML = result.value;
 
         var messageHtml = result.messages.map(function (message) {
