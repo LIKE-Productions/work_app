@@ -19,7 +19,7 @@
         });
     }
 
-    function displayResult(result) {
+    function displayResult(result) { 
         document.getElementById("output").innerHTML = result.value;
 
         var messageHtml = result.messages.map(function (message) {
