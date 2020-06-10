@@ -53,8 +53,8 @@ body {
 .messages .warning {
     color: #cc6600;
 }
-
-@media print {
+ 
+@media print { 
    #messages {
        display: none;
    }
@@ -69,4 +69,4 @@ body {
     margin-right: 2cm;
    }
 
-  }
+  } 
