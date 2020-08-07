@@ -1,5 +1,8 @@
 # A Word to Markdown to... Converter
 
+# Note!!!
+### This is deprecated. Anyone who wants to make this their own, put up an issue.
+
 ## Basic Info
 This is a website that hopes to be able to convert a <mark>Word Document</mark> into <u>Markdown</u> into whatever we support.
 
@@ -8,8 +11,7 @@ We also plan to do the opposite, and you can read about that below.
 
 ### Issues
 If you want more formats, you can post them <a href="https://github.com/yappermags/work_app/issues">here.</a>
-> We use the Mammoth library for these convertions. As I gain more knowledge on how to use Mammoth, the website will continue to thrive and grow.
-
+> We use the Mammoth library for these convertions. Their package is available <a href="npmjs.com/packages/mammoth">here.</a>
 ## Tracking our development process
 
 *May 29, 2020.* The first steps of our development process, where I am just initializing the workspace that Node gives me. This is not operable.
@@ -28,7 +30,9 @@ If you want more formats, you can post them <a href="https://github.com/yapperma
 
 *June 5, 2020.* I have added a new repository named print.js for our first ... conversion: PDF and easy print. Print.js is an easy to learn package with great documentation, so I might learn it in a breeze.
 
-*June 6/7, 2020.* I have deployed the website, and made sure it worked. I will now add some extra features, and then leave to work on my MD-Worconverter project
+*June 6/7, 2020.* I have deployed the website, and made sure it worked. I will now add some extra features, and then leave to work on my MD-Worconverter project.
+
+*August 8, 2020.* I am going to mkae a few changes before I deprecate this app in 5 months. It will be available for another year before I take it down from the web and archive it on Github.
 
 ### Dependencies
 
@@ -44,14 +48,12 @@ If you want more formats, you can post them <a href="https://github.com/yapperma
 
 <ul>
 <li>Bootstrap</li>
-<li>jQuery</li>
 </ul>
 
 ## Other Information
 
-### What I recommend
-
->I personally recommend that you stick to Markdown, because Markdown is easy to read, and doesn't require any third-party installations. A PDF would be a good business alternative, and so would HTML. EPUB translation might happen in the future, but I cannot make any promises yet.
+### Markdown convertions
+I am going to add Markdown to replace the MC-Worconverter beta nav button.
 
 ### Who this is for
  This is for the kind of people who want to take a raw Word document, but don't want to have to manually format it themselves. They can email their client to see what formats they want. I will give you a JS prompt to enter in format details. my app will take those details (We are also not saving formats into databases for security reasons) and apply them to your document.
@@ -76,29 +78,6 @@ If you have any problems about using no databases, put it in the <a href="https:
 
 *June 5, 2020*. **Alpha Version** 1.0.7
 
-*June 6/7, 2020*. **Aplha Version** 1.1.0
+*June 6/7, 2020*. **Alpha Version** 1.1.0
 
-### Warning about print.js compatibility
-
-I will have to warn you that print.js cannot print PDFs properly for:
-<ul>
-<li>Firefox</li>
-<li>Old Edge(not the Chromium Edge)</li>
-<li>IE(Internet Explorer) - Who uses it anyways?</li>
-</ul>
-
-------
-# What Might happen soon
-
-## Second page
-
-I am thinking of also creating a <mark>Markdown</mark> to <u>Word</u> converter, which is going to use the base of Mammoth. 
-
-### How will I do this?
-I am going to take the Mammoth source, **anylize** and take notes about Mammoth, **break it down** to the very barebones source, then **build it back up**. I will try with all of my power to make this a public npm package.
-
-### When?
-
-I expect to release and use my own API by *Version* **Beta One**, or to be technical, around **Version 0.5**.
-
-> @@Copyright 2020 LIKE Productions
+*August 7, 2020*. **Beta Version** 1.5.0

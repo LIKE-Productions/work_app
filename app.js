@@ -18,6 +18,10 @@ app.get('/docx', function (req, res) {
     res.render('docx')
 })
 
+app.get('/markdown', function(req, res){
+    res.render('md-converter')
+})
+
 app.get('/about', function(req,res){
     res.render('README')
 })
